@@ -4,6 +4,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.social-link-logo {
+  max-width: 30px;
+}
+
 .text-subtitle {
   color: rgb(90, 90, 90);
 }
