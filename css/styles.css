@@ -4,6 +4,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+#mainCarousel .carousel-item {
+  max-height: calc(100vh - 56px);
+}
+
 .social-link-logo {
   max-width: 30px;
 }
