@@ -8,6 +8,10 @@ body {
   max-height: calc(100vh - 56px);
 }
 
+.carousel-caption {
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
 .social-link-logo {
   max-width: 30px;
 }
