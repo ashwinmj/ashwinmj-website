@@ -4,8 +4,12 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.navbar-brand {
+  font-size: 1.5em;
+}
+
 #mainCarousel .carousel-item {
-  max-height: calc(100vh - 56px);
+  max-height: calc(100vh - 62px);
 }
 
 .carousel-caption {
