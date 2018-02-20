@@ -8,23 +8,12 @@ body {
   font-size: 1.5em;
 }
 
-#mainCarousel .carousel-item {
-  max-height: calc(100vh - 62px);
-}
-
-.carousel-caption {
-  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
-}
-
-.social-link-logo {
-  max-width: 30px;
-}
-
 footer p {
   font-weight: 300;
   font-size: 0.8em;
 }
 
+/* Colours */
 .text-subtitle {
   color: rgb(90, 90, 90);
 }
