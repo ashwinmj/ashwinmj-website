@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/projects-styles.css">
     <link rel="stylesheet" href="../css/project-page-styles.css">
     <link rel="icon" href="../../images/favicon.png" type="image/png">
-    <title>Project name | Projects | Ashwin M J</title>
+    <title>Shakalaka Boom Boom | Projects | Ashwin M J</title>
   </head>
   <body>
     <header>
@@ -28,6 +28,33 @@
         </div><!-- navbar-collapse -->
       </nav>
     </header>
+
+    <div class="container card project-page-card my-5 text-secondary">
+      <div class="card-body">
+        <div class="card-subtitle">
+          <ol class="breadcrumb px-0 m-0 bg-white">
+            <li class="breadcrumb-item"><a class="text-success" href="../">Projects</a></li>
+            <li class="breadcrumb-item active">Shakalaka Boom Boom</li>
+          </ol>
+        </div><!-- card-subtitle -->
+        <div class="card-title">
+          <h1 class="text-dark">Shakalaka Boom Boom</h1>
+        </div><!-- card-title -->
+        <div class="card-text">
+          <p>Shakalaka Boom Boom is an A.I. experiment which creates a magical experience by converting anything drawn on a mobile canvas into a real object in augmented reality world. The name of the project was inspired by an Indian TV series by the same name.</p>
+          <p>Check out the video below to get brief idea about what the project is all about!</p>
+        </div><!-- card-text -->
+        <iframe class="card-img" width="560" height="315" src="https://www.youtube.com/embed/nWA-mP8DAiA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="card-text mt-2">
+          <h4 class="text-subtitle">Behind the scenes</h4>
+          <p>I built this project along with my friends <a class="text-success" href="https://twitter.com/arunbk10" target="_blank">Arun</a> and <a class="text-success" href="https://medium.com/@kiransp0007" target="_blank">Kiran</a> while participating in a hackathon. We just came up with this idea when wondering that if it's even possible to get what you are dreaming of by just drawing!</p>
+          <p>Then I built a Machine Learning model using TensorFlow to classify the drawings. I made use of the transfer learning technique in machine learning to come up with a quick model. A small data set was created for this purpose. Initially the model was trained to classify the drawings in five categories namely candle, chair, cup, lamp and vase.</p>
+          <p>On the other side Kiran built APIs to serve the model using Flask. And Arun built a nice iOS app using ARKit to deliver the final experience. Special shout out to Darshan Sonde for providing some valuable inputs while building the machine learning model and Cryssac Franson Aldo for designing the iOS app UI.</p>
+          <p>All the work we have done is open sourced. Go get your hands dirty by playing around with the code at Github.</p>
+        </div><!-- card-text -->
+        <a href="https://github.com/team-ensemble" class="card-link btn btn-success text-uppercase" role="button" aria-pressed="true">Get Code</a>
+      </div><!-- card-body -->
+    </div><!-- container card -->
 
     <footer class="container-fluid py-3 bg-light text-secondary">
       <div class="row">
