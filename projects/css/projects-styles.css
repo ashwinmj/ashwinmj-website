@@ -1,3 +1,7 @@
 .card {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
+
+#content {
+  min-height: calc(100vh - 62px - 51px);
+}
